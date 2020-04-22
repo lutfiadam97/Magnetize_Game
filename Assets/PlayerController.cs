@@ -58,6 +58,7 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetKeyUp(KeyCode.Z))
         {
+        	rb2D.angularVelocity = 0;
             isPulled = false;
         }
 
